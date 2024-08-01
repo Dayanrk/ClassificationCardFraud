@@ -1,0 +1,38 @@
+# Ignore les fichiers de données volumineux
+*.csv
+*.tsv
+*.json
+*.xml
+*.xls
+*.xlsx
+*.hdf
+*.h5
+*.parquet
+*.feather
+*.avro
+*.pickle
+
+# Ignore les fichiers de logs
+*.log
+
+# Ignore les fichiers de sauvegarde et temporaires
+*.bak
+*.tmp
+*.swp
+
+# Ignore les fichiers et dossiers de cache
+__pycache__/
+*.py[cod]
+
+# Ignore les fichiers générés par l'IDE
+.vscode/
+.idea/
+.mypy_cache/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Ignore les dossiers de build
+build/
+dist/
+*.egg-info/
+
